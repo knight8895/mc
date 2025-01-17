@@ -1,0 +1,4 @@
+join-commands:
+  played-before: true
+  played-before-world-list:
+  - world

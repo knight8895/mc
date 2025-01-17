@@ -1,0 +1,16 @@
+{
+  "backup": {
+    "folders": [
+      "world",
+      "world_nether",
+      "world_the_end"
+    ],
+    "backup_interval_minutes": 30,
+    "google_drive_folder_id": "1Zg5eThembbmx48ClXSnTXsH65GI9GdGo",
+    "start_on_server_launch": true
+  },
+  "google_drive_api": {
+    "credentials_file": "credentials.json",
+    "token_file": "token.json"
+  }
+}

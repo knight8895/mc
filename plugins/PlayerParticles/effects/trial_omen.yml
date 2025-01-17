@@ -1,0 +1,11 @@
+# The name the effect will display as
+# Default: trial_omen
+effect-name: trial_omen
+
+# If the effect is enabled or not
+# Default: true
+enabled: true
+
+# Default: [COPPER_BULB]
+gui-icon-material:
+  - COPPER_BULB

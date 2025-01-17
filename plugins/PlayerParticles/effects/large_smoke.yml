@@ -1,0 +1,11 @@
+# The name the effect will display as
+# Default: large_smoke
+effect-name: large_smoke
+
+# If the effect is enabled or not
+# Default: true
+enabled: true
+
+# Default: [STRING]
+gui-icon-material:
+  - STRING

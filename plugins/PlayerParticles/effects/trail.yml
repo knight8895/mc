@@ -1,0 +1,11 @@
+# The name the effect will display as
+# Default: trail
+effect-name: trail
+
+# If the effect is enabled or not
+# Default: true
+enabled: true
+
+# Default: [DIRT_PATH]
+gui-icon-material:
+  - DIRT_PATH

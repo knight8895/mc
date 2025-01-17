@@ -1,0 +1,11 @@
+# The name the effect will display as
+# Default: infested
+effect-name: infested
+
+# If the effect is enabled or not
+# Default: true
+enabled: true
+
+# Default: [INFESTED_MOSSY_STONE_BRICKS]
+gui-icon-material:
+  - INFESTED_MOSSY_STONE_BRICKS

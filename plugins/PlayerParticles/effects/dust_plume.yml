@@ -1,0 +1,11 @@
+# The name the effect will display as
+# Default: dust_plume
+effect-name: dust_plume
+
+# If the effect is enabled or not
+# Default: true
+enabled: true
+
+# Default: [BONE_MEAL]
+gui-icon-material:
+  - BONE_MEAL

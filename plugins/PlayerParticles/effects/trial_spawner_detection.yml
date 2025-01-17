@@ -1,0 +1,11 @@
+# The name the effect will display as
+# Default: trial_spawner_detection
+effect-name: trial_spawner_detection
+
+# If the effect is enabled or not
+# Default: true
+enabled: true
+
+# Default: [TRIAL_KEY]
+gui-icon-material:
+  - TRIAL_KEY

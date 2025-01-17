@@ -1,0 +1,11 @@
+# The name the effect will display as
+# Default: trial_spawner_detection_ominous
+effect-name: trial_spawner_detection_ominous
+
+# If the effect is enabled or not
+# Default: true
+enabled: true
+
+# Default: [OMINOUS_TRIAL_KEY]
+gui-icon-material:
+  - OMINOUS_TRIAL_KEY

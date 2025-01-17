@@ -1,0 +1,11 @@
+# The name the effect will display as
+# Default: ominous_spawning
+effect-name: ominous_spawning
+
+# If the effect is enabled or not
+# Default: true
+enabled: true
+
+# Default: [TRIAL_SPAWNER]
+gui-icon-material:
+  - TRIAL_SPAWNER

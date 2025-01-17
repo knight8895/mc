@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1737051653725
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1737120850374
+  login: 1737120692269
+money: '0'
+last-account-name: Saitric
+logoutlocation:
+  world: 9fd227ac-6348-47dd-842c-87650745e8c6
+  world-name: world
+  x: 889.0101445229503
+  y: 71.0
+  z: -305.9815693618217
+  yaw: -127.20494842529297
+  pitch: -3.3000099658966064
+lastlocation:
+  world: 9fd227ac-6348-47dd-842c-87650745e8c6
+  world-name: world
+  x: 761.6999999880791
+  y: 96.0
+  z: -1126.699999988079
+  yaw: 13.15087890625
+  pitch: 54.30001449584961

@@ -1,0 +1,11 @@
+# The name the effect will display as
+# Default: egg_crack
+effect-name: egg_crack
+
+# If the effect is enabled or not
+# Default: true
+enabled: true
+
+# Default: [EGG]
+gui-icon-material:
+  - EGG

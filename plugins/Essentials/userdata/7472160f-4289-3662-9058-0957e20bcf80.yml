@@ -1,0 +1,39 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1737055956661
+  login: 1737053512267
+money: '0'
+last-account-name: RidWan1020
+lastlocation:
+  world: 9fd227ac-6348-47dd-842c-87650745e8c6
+  world-name: world
+  x: 761.3000000119209
+  y: 96.0
+  z: -1126.300000011921
+  yaw: -92.89916229248047
+  pitch: -42.89991760253906
+logoutlocation:
+  world: 9fd227ac-6348-47dd-842c-87650745e8c6
+  world-name: world
+  x: 894.9639914756344
+  y: 71.0
+  z: -305.5750595936096
+  yaw: -172.7950439453125
+  pitch: 2.550471782684326
+nickname: clear

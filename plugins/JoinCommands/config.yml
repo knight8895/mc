@@ -1,0 +1,71 @@
+# Default Configuration for Join Commands (Spigot Version)
+
+# Set this to true if you are trying to resolve an issue or SirBlobman asks you to.
+# This will send extra output to console about the plugin.
+debug-mode: false
+
+# Set this to true to disable player data files.
+# Using this option will cause problems with the 'first-join-only' options.
+disable-player-data: false
+
+# Does JoinCommands need to hook into BungeeCord / Velocity?
+# This requires you to install JoinCommands on the proxy as well.
+bungeecord-hook: false
+
+# Does JoinCommands hook in to PlaceholderAPI
+# This will allow you to use their placeholders in commands
+placeholderapi-hook: true
+
+# This is a set of commands that will be executed when a player joins the spigot server.
+# 'exampleOne', 'example2', and 'example3' are the command IDs.
+# A command ID can be any valid YML section string, but they must all be different
+# To disable all server join commands, set the value to 'server-join-commands: {}'
+server-join-commands:
+  welcomeTitle:
+    # Commands to execute when a player joins the server
+    command-list:
+      # Display a large title at the center of the screen
+      - 'title {player} title {"text":"Welcome,!","color":"yellow"}'
+      # Display a smaller subtitle under the title
+      - 'title {player} subtitle {"text":"do whatever u want !","color":"yellow","italic":true}'
+      # Optional: Send a chat message to the player
+     # - 'msg {player} Welcome to our awesome server , jeda bakchodi mat karna !'
+    # No permission is required to run these commands
+    permission: ""
+    # Only display this message on the player's first join
+    first-join-only: false
+    # Wait 1 second (20 ticks) before showing the title
+    delay: 20
+
+
+  example2:
+    permission: "i.hate.you"
+    first-join-only: false
+    delay: 0
+    command-list:
+      - "kill {player}"
+
+  example3:
+    permission: "donator.free.money"
+    first-join-only: false
+    delay: 100
+    command-list:
+      - "msg {player} You are a donator, so you get free money for joining."
+      - "eco give {player} 100"
+
+# A command ID can be any valid YML section string, but they must all be different
+# To disable all world join commands, set the value to 'world-join-commands: {}'
+
+
+  exampleWorld2:
+    world-list:
+      - "world"
+
+    command-list:
+      - "msg {player} welcome back to the main world"
+
+    delay: 20
+    first-join-only: false
+    permission: ""
+
+# End of File

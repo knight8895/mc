@@ -1,0 +1,11 @@
+# The name the effect will display as
+# Default: dust_pillar
+effect-name: dust_pillar
+
+# If the effect is enabled or not
+# Default: true
+enabled: true
+
+# Default: [CRACKED_STONE_BRICKS]
+gui-icon-material:
+  - CRACKED_STONE_BRICKS
